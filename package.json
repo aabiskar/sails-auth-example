@@ -1,0 +1,28 @@
+{
+  "name": "auth-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
+    "include-all": "~0.1.6",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.6",
+    "rc": "1.0.1",
+    "sails": "~0.12.4",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timi/auth-example.git"
+  },
+  "author": "timi",
+  "license": ""
+}
